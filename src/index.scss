@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+.content-wrapper {
+  .container {
+    display: flex;
+  }
+}
+.container {
+  max-width: 910px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

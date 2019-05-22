@@ -1,0 +1,14 @@
+.main-header {
+  background: #005890;
+  color: #fff;
+  .container {
+    display: flex;
+  }
+  li {
+    list-style: none;
+  }
+}
+.logo {
+  height: 20px;
+  max-width: 100%;
+}

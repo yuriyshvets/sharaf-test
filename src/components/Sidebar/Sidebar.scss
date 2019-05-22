@@ -1,0 +1,18 @@
+.sidebar {
+  min-width: 135px;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+  }
+  label {
+    display: block;
+  }
+  .refine-item {
+    border-bottom: 1px solid #eff0f5;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
