@@ -1,4 +1,10 @@
 .products-list-item {
   width: 20%;
   list-style: none;
+  .title {
+    font-size: 12px;
+  }
+}
+.price {
+  font-weight: 700;
 }
