@@ -5,7 +5,7 @@ function SearchBox() {
   return(
     <div className="search-box">
       <div className="search-box-category">
-        <span>All departments</span><i></i>
+        <span>Gaming</span><i></i>
       </div>
       <input type="text" placeholder="Search Products..."/>
     </div>

@@ -1,0 +1,11 @@
+.product-details {
+  display: flex;
+  .product-details-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-details-right {
+    width: 295px;
+  }
+}

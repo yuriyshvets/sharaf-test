@@ -1,4 +1,39 @@
+.products-list-wrapper {
+  padding-top: 16px;
+  display: flex;
+}
 .products-list {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 13px;
+}
+.products-list-actions {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  .sort-by {
+    width: 135px;
+  }
+}
+.sidebar-switcher {
+  display: none;
+  background: #fff url('../../../assets/images/filter.svg') no-repeat left 11px top 50%;
+  background-size: 15px;
+  border: 1px solid #ebf1f9;
+  border-radius: 2px;
+  padding: 5px 11px 5px 37px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .products-list-actions {
+    justify-content: space-between;
+  }
+  .sidebar-switcher {
+    display: block;
+  }
+  .products-list {
+    padding-left: 0;
+  }
 }

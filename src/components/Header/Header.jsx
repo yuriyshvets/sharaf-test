@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MainMenu from './MainMenu/MainMenu';
 import TopMenu from './TopMenu/TopMenu';
 import SearchBox from './SearchBox/SearchBox';
+import TopUserMenu from './TopUserMenu/TopUserMenu';
 import logo from '../../assets/images/logo.png';
 import './Header.scss';
 
@@ -48,12 +49,17 @@ class Header extends Component {
     return (
       <header className="main-header">
         <div className="container">
-          <div msin-header-left>
-            <img src={logo} alt="" className="logo" />
+          <div className="header-left">
+            <a href="/">
+              <img src={logo} alt="" className="logo" />
+            </a>
             <MainMenu menuItems={this.state.mainMenuItems} />
           </div>
-          <div msin-header-right>
-            <TopMenu menuItems={this.state.topMenuItems} />
+          <div className="header-right">
+            <div className="top-menus">
+              <TopMenu menuItems={this.state.topMenuItems} />
+              <TopUserMenu />
+            </div>
             <SearchBox />
           </div>
         </div>

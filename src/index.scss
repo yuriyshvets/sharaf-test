@@ -3,6 +3,8 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  font-size: 13px;
+  color: #26344c;
 }
 .content-wrapper {
   .container {
@@ -10,10 +12,26 @@ body {
   }
 }
 .container {
-  max-width: 910px;
+  max-width: 940px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 img {
   max-width: 100%;
   height: auto;
+}
+input {
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  color: #a5b5cc;
+}
+input::-moz-placeholder {
+  color: #a5b5cc;
+}
+input:-ms-input-placeholder {
+  color: #a5b5cc;
+}
+input:-moz-placeholder {
+  color: #a5b5cc;
 }

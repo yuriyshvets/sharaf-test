@@ -1,3 +1,11 @@
 .top-menu {
   display: flex;
+  li {
+    margin-right: 13px;
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }

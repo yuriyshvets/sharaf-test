@@ -1,6 +1,17 @@
 .main-menu {
   display: flex;
-}
-.active {
-  background: #FFC100;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  li {
+    margin-right: 15px;
+  }
+  .active {
+    background: #FFC100;
+    border-radius: 15px;
+    padding: 4px 15px;
+    a {
+      color: #005890;
+    }
+  }
 }
